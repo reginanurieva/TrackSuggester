@@ -1,25 +1,33 @@
 $(document).ready(function() {
 
 
-    $("button#btn").click(function() {
-
-      var add = function(answer, answer2, answer3) {
-        return answer + answer2 + answer3;
+    $("form#quiz").submit(function() {
+     event.preventDefault();
+      var add = function(q1, q2, q3, q4, q5, q6) {
+        return q1 + q2 + q3 + q4 + q5 + q6;
 };
 
-      var answer = parseInt($("input:radio[name='question1']:checked").val());
-      var answer2 = parseInt($("input:radio[name='question2']:checked").val());
-      var answer3 = parseInt($("input:radio[name='question3']:checked").val());
-      var result = parseInt(add(answer, answer2, answer3).toString());
+      var q1 = parseInt($("input:radio[name='xy1']:checked").val());
+      var q2 = parseInt($("input:radio[name='xy2']:checked").val());
+      var q3 = parseInt($("input:radio[name='xy3']:checked").val());
+      var q4 = parseInt($("input:radio[name='xy4']:checked").val());
+      var q5 = parseInt($("input:radio[name='xy5']:checked").val());
+      var q6 = parseInt($("input:radio[name='xy6']:checked").val());
+      var result = parseInt(add(q1, q2, q3, q4, q5, q6).toString());
       if (result === 3) {
-      alert("C#");
-      } else {
-      alert("Smth else");
-
-      }
-
+      //alert("YOU");
       $("#output").text(result);
-
+    } else if (result === 6){
+      //alert("YOU b");
+      $("#output").text("This is even nicer! U r a champion!");
+      }
+      else if (result === 9){
+      //alert("YOUn");
+      $("#output").text("There you go!");
+      }
+      else {
+        //alert("This is different!")
+      }
 
 
 

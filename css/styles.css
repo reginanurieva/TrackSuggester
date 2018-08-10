@@ -9,3 +9,10 @@ background-color: lightpink;
 .col-md-6 {
   width: 60%;
 }
+ /*#output {
+   visibility: hidden;
+ }
+
+ #output2 {
+   visibility: hidden;
+ }
