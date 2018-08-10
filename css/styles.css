@@ -15,4 +15,8 @@ background-color: lightpink;
 
  #output2 {
    visibility: hidden;
+ }*/
+ #output {
+   font-size: 20px;
+   font-family: cursive;
  }
