@@ -1,6 +1,6 @@
 # Portfolio
 
-#### First individual project at Epicodus Aug 03, 2018
+#### Second individual project at Epicodus Aug 10, 2018
 
 #### By Regina Nurieva
 
