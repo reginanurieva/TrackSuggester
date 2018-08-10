@@ -1,4 +1,4 @@
-# Portfolio
+# TrackSuggester
 
 #### Second individual project at Epicodus Aug 10, 2018
 
@@ -6,7 +6,7 @@
 
 ## Description
 
-This HTML Webpage using JavaScript, JQuery and CSS contains a quiz that helf a future web-developer to determine what language to learn.
+This HTML Webpage using JavaScript, jQuery and CSS contains a quiz that help a future web-developer to determine what language to learn.
 
 ## Setup/Installation Requirements
 
